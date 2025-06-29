@@ -4,7 +4,7 @@ A full-stack Todo Task Management Web Application built to help users manage per
 
 ## ✨ Features
 
-- 🔐 Simulated authentication using localStorage (JWT-ready structure)
+- 🔐 Simulated authentication using localStorage.
 - ✅ Full CRUD functionality for tasks (Create, Read, Update, Delete)
 - 👥 Task sharing with other users via username or email
 - 🎯 Filters for task status, due date, and priority
