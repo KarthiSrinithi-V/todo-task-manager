@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Todo App Login</h1>
+    <button onclick="login()">Login</button>
+  </div>
+
+  <script>
+    function login() {
+      localStorage.setItem('token', 'dummy_token'); // Simulate login
+      window.location.href = 'dashboard.html';
+    }
+  </script>
+</body>
+</html>
