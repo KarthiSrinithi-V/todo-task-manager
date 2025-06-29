@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Your Tasks</h1>
+    <button id="logoutBtn">Logout</button>
+  </header>
+  <main>
+    <form id="taskForm">
+      <input type="hidden" id="taskId" />
+      <input type="text" id="title" placeholder="Title" required />
+      <textarea id="description" placeholder="Description"></textarea>
+      <input type="date" id="due_date" />
+      <select id="priority">
+        <option value="Low">Low</option>
+        <option value="Medium" selected>Medium</option>
+        <option value="High">High</option>
+      </select>
+      <select id="status">
+        <option value="Pending" selected>Pending</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+      </select>
+      <input type="text" id="shared_with" placeholder="Shared With" />
+      <button type="submit">Save Task</button>
+    </form>
+    <ul id="taskList"></ul>
+  </main>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
