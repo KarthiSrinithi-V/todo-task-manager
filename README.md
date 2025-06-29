@@ -1,6 +1,6 @@
 # 📝 Todo Task Management Web Application
 
-A full-stack Todo Task Management Web Application built to help users manage personal and shared tasks with ease. This project demonstrates complete full-stack capabilities including backend API development, database integration, real-time UI updates, and a responsive user interface.
+A full-stack Todo Task Management Web Application built to help users manage personal and share tasks with ease. This project demonstrates complete full-stack capabilities including backend API development, database integration, real-time UI updates, and a responsive user interface.
 
 ## ✨ Features
 
@@ -20,5 +20,4 @@ A full-stack Todo Task Management Web Application built to help users manage per
 | Database       | MySQL            |
 | Authentication | Simulated (localStorage) |
 
-## 📁 Project Structure
-
+📢 This project is a part of a hackathon run by https://www.katomaran.com 
